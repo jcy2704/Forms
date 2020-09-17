@@ -18,6 +18,11 @@ header {
   justify-content: flex-end;
 }
 
+.main-container header {
+  text-align: right;
+  width: 100%;
+}
+
 .have-acc {
   justify-content: flex-end;
 }
@@ -160,8 +165,5 @@ footer {
   font-size: 12px;
   width: 600px;
   padding-top: 40px;
-}
-
-footer p {
   color: gray;
 }
