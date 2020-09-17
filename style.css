@@ -40,7 +40,7 @@ header {
   color: white;
   border-radius: 3px;
   width: 80px;
-  border: 0px;
+  border: 0;
 }
 
 .have-acc p {
@@ -70,8 +70,8 @@ header {
   justify-content: flex-start;
   flex-direction: column;
   border-radius: 5px;
-  border: 1px solid #c7c7c7; 
-  height:650px;
+  border: 1px solid #c7c7c7;
+  height: 650px;
   width: 370px;
   background-color: white;
   padding: 20px;
@@ -82,8 +82,8 @@ form {
 }
 
 fieldset {
-  border: 0px;
-  margin: 0px;
+  border: 0;
+  margin: 0;
   padding-left: 10px;
   padding-right: 10px;
   text-align: left;
@@ -115,7 +115,7 @@ input {
   margin-top: 30px;
   width: 356px;
   height: 44px;
-  border: 0px;
+  border: 0;
   background-color: #0077c5;
   color: white;
   border-radius: 5px;
@@ -123,7 +123,7 @@ input {
 
 .more-info {
   list-style: none;
-  padding: 0px;
+  padding: 0;
 }
 
 .more-info li {
@@ -134,20 +134,20 @@ input {
 
 .more-info li a {
   text-decoration: none;
-  color: gray
+  color: gray;
 }
 
 .class-c {
   width: 410px;
   height: 58px;
   background-color: #eceef1;
-  border: 0px;
+  border: 0;
   position: relative;
   left: -20px;
 }
 
 .captcha {
-  margin: 0px;
+  margin: 0;
   font-size: 12px;
   color: #757575;
   padding-top: 23px;
