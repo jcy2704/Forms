@@ -7,17 +7,19 @@ html{
     flex-direction: column;
     align-items: center;
 }
-header{
-    justify-content: flex-end;
+.main-container header{
+    text-align: right;
+    width: 1550px;
 }
 .have-acc{
     justify-content: flex-end;
 }
+.btn{
+    display: inline-block;
+}
 .signup-btn {
-    justify-content: flex-end;
     font-size: 10px;
     position: relative;
-    top: 25px;
     height: 34px;
     background-color: #0077C5;
     color: white;
@@ -41,13 +43,18 @@ body {
 
 .signup-form{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
-    border-radius: 2px;
+    border-radius: 5px;
     border: 1px solid #c7c7c7; 
-    height:450px;
-    width: 300px;
+    height:630px;
+    width: 370px;
     background-color: white;
+    padding: 20px;
+}
+
+form{
+    height: 500px;
 }
 
 fieldset{
@@ -59,6 +66,7 @@ fieldset{
 }
 .info label{
     display: block;
+    margin-top: 20px;
 }
 input{
     margin-top: 10px;
@@ -66,15 +74,50 @@ input{
 
 .input-info{
     display: block;
+    width: 350px;
+    height: 30px;
+}
+
+.create-btn{
+    width: 350px;
+    padding-bottom: 35px;
+}
+
+.submit-btn{
+    margin-top: 20px;
+    width: 356px;
+    height: 44px;
+    border: 0;
+    background-color: #0077C5;
+    color: white;
+    border-radius: 5px;
 }
 .more-info{
     list-style: none;
+    padding: 0;
 }
 .more-info li{
     display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.more-info li a{
+    text-decoration: none;
+    color: gray
 }
 .low-info{
     font-size: 12px;
     color: gray;
     font-style: italic;
+    padding-bottom: 20px;
+}
+
+.footer{
+    font-size: 12px;
+    width: 600px;
+    padding-top: 40px;
+}
+
+.footer p{
+    color: gray;
 }
