@@ -5,14 +5,14 @@
         <title>Signup form for INTUIT web page</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <div class="main-container">
+    <main class="main-container">
     <header>
         <div class="have-acc">
             <p>Already have an Intuit account?</p>
             <a href="#">I forgot my User ID or Password</a>
         </div>
         <div class="btn">
-            <button class="signup-btn">Sign In</button>
+            <button class="signup-btn" type="submit">Sign In</button>
         </div>
     </header>
     <body>
@@ -21,25 +21,25 @@
             <img class="widget" src="images/logos.png" alt="logos">
         </div>
         <div class="signup-form">
-            <form action="">
+            <form action="/signup" method="post">
                 <h2>Create an Intuit account</h2>
                 <p>One account for everything Intuit, including Mint.</p>
                 <a href="#" class="learn">Learn more</a>
                 <fieldset class="info">
                 <label for="email">
                     Email adress
-                    <input class="input-info" type="email" required>
+                    <input class="input-info" name="email" id="email" type="email" required>
                 </label>
                 <label for="phone">
                     Phone (recommended)
-                    <input class="input-info" type="tel" required>
+                    <input class="input-info" name="phone" id="phone" type="tel" required>
                 </label>
                 <label for="password">
                     Password
-                    <input class="input-info" type="text" required>
+                    <input class="input-info" name="password" id="password" type="password" required>
                 </label>
                 <div class="create-btn">
-                    <button class="submit-btn">Create Account</button>
+                    <button class="submit-btn" type="submit">Create Account</button>
                 </div>
                 </fieldset>
                 
@@ -60,5 +60,5 @@
                 Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
         </div>
     </body>
-</div>
+</main>
 </html>

@@ -1,20 +1,24 @@
-html{
+html {
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.main-container{
+
+.main-container {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.main-container header{
+
+.main-container header {
     text-align: right;
     width: 1550px;
 }
-.have-acc{
+
+.have-acc {
     justify-content: flex-end;
 }
-.btn{
+
+.btn {
     display: inline-block;
 }
 .signup-btn {
@@ -28,28 +32,33 @@ html{
     width: 80px;
     border: 0;
 }
-.have-acc p, .have-acc a{
+
+.have-acc p, .have-acc a {
     font-size: 12px;
     padding-right: 25px;
 }
-.have-acc a{
+
+.have-acc a {
     position: relative;
     top: -10px;
 }
+
 body {
     background-color: #ECEEF1;
     justify-content: center;
 }
-.learn{
+
+.learn {
     font-size: 12px;
     position: relative;
     top: -13px;
 }
-.widget{
+
+.widget {
     display: block;
 }
 
-.signup-form{
+.signup-form {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -61,39 +70,41 @@ body {
     padding: 20px;
 }
 
-form{
+form {
     height: 500px;
 }
 
-fieldset{
+fieldset {
     border: 0;
     margin: 0;
     padding-left: 10px;
     padding-right: 10px;
     text-align: left;
 }
-.info label{
+
+.info label {
     display: block;
     margin-top: 30px;
 }
-input{
+
+input {
     margin-top: 10px;
     border-radius: 3px;
     border: 1px solid gray;
 }
 
-.input-info{
+.input-info {
     display: block;
     width: 350px;
     height: 30px;
 }
 
-.create-btn{
+.create-btn {
     width: 350px;
     padding-bottom: 35px;
 }
 
-.submit-btn{
+.submit-btn {
     margin-top: 30px;
     width: 356px;
     height: 44px;
@@ -102,20 +113,20 @@ input{
     color: white;
     border-radius: 5px;
 }
-.more-info{
+.more-info {
     list-style: none;
     padding: 0;
 }
-.more-info li{
+.more-info li {
     display: inline-block;
     padding-right: 15px;
     padding-left: 15px;
 }
-.more-info li a{
+.more-info li a {
     text-decoration: none;
     color: gray
 }
-.class-c{
+.class-c {
     width: 410px;
     height: 58px;
     background-color: #ECEEF1;
@@ -131,7 +142,7 @@ input{
     padding-top: 23px;
 }
 
-.low-info{
+.low-info {
     font-size: 12px;
     color: gray;
     font-style: italic;
@@ -139,17 +150,17 @@ input{
     text-align: center;
 }
 
-.footer{
+.footer {
     font-size: 12px;
     width: 600px;
     padding-top: 40px;
 }
 
-.footer p{
+.footer p {
     color: gray;
 }
 
-header{
+header {
     display: flex;
     justify-content: flex-end;
 }
