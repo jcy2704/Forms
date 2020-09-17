@@ -38,7 +38,7 @@ Download the code or copy the git repository to your computer
 This is a model of a HTML Basic structure, usage just to admire our work.
 
 ### Run tests
-Run the index.html file to be able to see the web.
+Linters #7: Pull request #1 synchronize by alejandrotoledoweb
 
 
 
