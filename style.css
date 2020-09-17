@@ -18,8 +18,9 @@ html{
     display: inline-block;
 }
 .signup-btn {
-    font-size: 10px;
+    font-size: 15px;
     position: relative;
+    top: 11px;
     height: 34px;
     background-color: #0077C5;
     color: white;
@@ -27,16 +28,23 @@ html{
     width: 80px;
     border: 0;
 }
-.info1{
-    font-size: 13px;
+.have-acc p, a{
+    font-size: 12px;
     padding-right: 25px;
 }
-
+.have-acc a{
+    position: relative;
+    top: -10px;
+}
 body {
     background-color: #ECEEF1;
     justify-content: center;
 }
-
+.learn{
+    font-size: 12px;
+    position: relative;
+    top: -13px;
+}
 .widget{
     display: block;
 }
@@ -70,6 +78,8 @@ fieldset{
 }
 input{
     margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid gray;
 }
 
 .input-info{
@@ -105,11 +115,28 @@ input{
     text-decoration: none;
     color: gray
 }
+.class-c{
+    width: 410px;
+    height: 97px;
+    background-color: #ECEEF1;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+    left: -21px;
+}
+.captcha{
+    font-size: 12px;
+    color: gray;
+    position: relative;
+    top: 25px;
+    padding-left: 12px;
+}
 .low-info{
     font-size: 12px;
     color: gray;
     font-style: italic;
     padding-bottom: 20px;
+    text-align: center !important;
 }
 
 .footer{
@@ -120,4 +147,8 @@ input{
 
 .footer p{
     color: gray;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
 }
