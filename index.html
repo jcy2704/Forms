@@ -6,35 +6,40 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <header>
-        <div>
+        <div class="have-acc">
             <p>Already have an Intuit account?</p>
             <a href="#">I forgot my User ID or Password</a>
         </div>
+        <div class="signup-btn">
             <button>Sign In</button>
+        </div>
     </header>
     <body>
         <div>
             <img src="images/main-logo.png" alt="main-logo">
-            <img src="images/logos.png" alt="logos">
+            <img class="widget" src="images/logos.png" alt="logos">
         </div>
-        <div>
+        <div class="signup-form">
             <form action="">
                 <h2>Create an Intuit account</h2>
                 <p>One account for everything Intuit, including Mint.</p>
                 <a href="#">Learn more</a>
+                <fieldset class="info">
                 <label for="email">
                     Email adress
-                    <input type="email" required>
+                    <input class="input-info" type="email" required>
                 </label>
                 <label for="phone">
                     Phone (recommended)
-                    <input type="number" required>
+                    <input class="input-info" type="number" required>
                 </label>
                 <label for="password">
                     Password
-                    <input type="text" required>
+                    <input class="input-info" type="text" required>
                 </label>
                 <button>Create Account</button>
+                </fieldset>
+                
                 <p>By clicking Create account, you agree to our
                     <a href="#">Terms</a> and have read and acknowledge our a
                     <a href="#">Privacy Statement.</a></p>
