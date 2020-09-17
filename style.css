@@ -1,17 +1,38 @@
-header{
-    text-align: right;
+html{
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
+.main-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    justify-content: flex-end;
+}
+.have-acc{
+    justify-content: flex-end;
+}
 .signup-btn {
-    display: inline-block;
+    justify-content: flex-end;
+    font-size: 10px;
+    position: relative;
+    top: 25px;
+    height: 34px;
+    background-color: #0077C5;
+    color: white;
+    border-radius: 3px;
+    width: 80px;
+    border: 0;
+}
+.info1{
+    font-size: 13px;
+    padding-right: 25px;
 }
 
 body {
     background-color: #ECEEF1;
-    display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
 }
 
 .widget{
@@ -45,4 +66,15 @@ input{
 
 .input-info{
     display: block;
+}
+.more-info{
+    list-style: none;
+}
+.more-info li{
+    display: inline-block;
+}
+.low-info{
+    font-size: 12px;
+    color: gray;
+    font-style: italic;
 }
