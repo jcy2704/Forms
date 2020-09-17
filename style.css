@@ -28,7 +28,7 @@ html{
     width: 80px;
     border: 0;
 }
-.have-acc p, a{
+.have-acc p, .have-acc a{
     font-size: 12px;
     padding-right: 25px;
 }
@@ -55,7 +55,7 @@ body {
     flex-direction: column;
     border-radius: 5px;
     border: 1px solid #c7c7c7; 
-    height:630px;
+    height:650px;
     width: 370px;
     background-color: white;
     padding: 20px;
@@ -74,7 +74,7 @@ fieldset{
 }
 .info label{
     display: block;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 input{
     margin-top: 10px;
@@ -94,7 +94,7 @@ input{
 }
 
 .submit-btn{
-    margin-top: 20px;
+    margin-top: 30px;
     width: 356px;
     height: 44px;
     border: 0;
@@ -117,26 +117,26 @@ input{
 }
 .class-c{
     width: 410px;
-    height: 97px;
+    height: 58px;
     background-color: #ECEEF1;
-    border: 1px solid gray;
-    border-radius: 5px;
+    border: 0;
     position: relative;
-    left: -21px;
+    left: -20px;
 }
-.captcha{
+
+.captcha {
+    margin: 0px;
     font-size: 12px;
-    color: gray;
-    position: relative;
-    top: 25px;
-    padding-left: 12px;
+    color: #757575;
+    padding-top: 23px;
 }
+
 .low-info{
     font-size: 12px;
     color: gray;
     font-style: italic;
-    padding-bottom: 20px;
-    text-align: center !important;
+    padding-bottom: 38px;
+    text-align: center;
 }
 
 .footer{
@@ -148,6 +148,7 @@ input{
 .footer p{
     color: gray;
 }
+
 header{
     display: flex;
     justify-content: flex-end;
