@@ -47,12 +47,12 @@ header {
   border: 0;
 }
 
-.have-acc p {
+.p1 {
   font-size: 12px;
   padding-right: 25px;
 }
 
-.have-acc a {
+.a1 {
   font-size: 12px;
   padding-right: 25px;
   position: relative;
