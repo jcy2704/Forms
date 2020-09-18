@@ -1,13 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Forms
+# Form
 
 > We recreate a signup form from Mint.com page with just using HTML and CSS
 
 ![screenshot](./Form-Screenshot.png)
+![screenshot](./Form-Screenshot2.png)
 
 We created a signup form that includes:
-- header
+- header with signin button
 - body with form element
 - footer with legal information
 
@@ -18,7 +19,7 @@ We created a signup form that includes:
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/jcy2704/Forms/e5221ba648c358668fb6931539ecf57243be067f/index.html)
+[Live Demo Link](https://rawcdn.githack.com/jcy2704/Forms/648b2a83480a11222e6a440fc36731667a6bb25b/index.html)
 
 ## Getting Started
 
