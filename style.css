@@ -23,8 +23,28 @@ header {
   width: 100%;
 }
 
+.have-acc-cont {
+  display: flex;
+  position: relative;
+  top: -10px;
+}
+
 .have-acc {
   justify-content: flex-end;
+}
+
+.p1 {
+  font-size: 12px;
+  padding-right: 12px;
+}
+
+.a1 {
+  font-size: 12px;
+  padding-right: 12px;
+  position: relative;
+  top: -12px;
+  text-decoration: none;
+  color: #0077c5;
 }
 
 .btn {
@@ -32,7 +52,7 @@ header {
   padding-right: 12px;
 }
 
-.signup-btn {
+.signin-btn {
   font-size: 15px;
   position: relative;
   top: 11px;
@@ -40,26 +60,8 @@ header {
   background-color: #0077c5;
   color: white;
   border-radius: 3px;
-  width: 80px;
+  width: 100px;
   border: 0;
-}
-
-.p1 {
-  font-size: 12px;
-  padding-right: 25px;
-}
-
-.a1 {
-  font-size: 12px;
-  padding-right: 25px;
-  position: relative;
-  top: -10px;
-}
-
-.learn {
-  font-size: 12px;
-  position: relative;
-  top: -13px;
 }
 
 .widget {
@@ -70,9 +72,9 @@ header {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  border-radius: 5px;
+  border-radius: 3px;
   border: 1px solid #c7c7c7;
-  height: 657px;
+  height: 668px;
   width: 370px;
   background-color: white;
   padding: 20px;
@@ -80,6 +82,19 @@ header {
 
 form {
   height: 500px;
+  color: rgb(75, 75, 75);
+}
+
+.title {
+  font-size: 25px
+}
+
+.learn {
+  font-size: 12px;
+  position: relative;
+  top: -13px;
+  text-decoration: none;
+  color: #0077c5;
 }
 
 fieldset {
@@ -88,12 +103,6 @@ fieldset {
   padding-left: 10px;
   padding-right: 10px;
   text-align: left;
-}
-
-.phone-msg {
-  margin-top: 0;
-  font-size: 12px;
-  color: gray;
 }
 
 .info label {
@@ -111,6 +120,13 @@ input {
   display: block;
   width: 350px;
   height: 30px;
+  border: 1px solid rgba(128, 128, 128, 0.452);
+}
+
+.phone-msg {
+  margin-top: 0;
+  font-size: 12px;
+  color: gray;
 }
 
 .create-btn {
@@ -125,7 +141,7 @@ input {
   border: 0;
   background-color: #0077c5;
   color: white;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 .more-info {
@@ -144,13 +160,31 @@ input {
   color: gray;
 }
 
+.low-info-cont {
+  width: 300px;
+  padding-bottom: 23px;
+  padding-left: 30px;
+}
+
+.low-info {
+  font-size: 12px;
+  color: gray;
+  font-style: italic;
+  text-align: center;
+}
+
+.low-info a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
 .class-c {
   width: 410px;
   height: 49px;
   background-color: #eceef1;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-top: 1px solid rgba(128, 128, 128, 0.342);
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top: 1px solid rgba(128, 128, 128, 0.123);
   position: relative;
   left: -20px;
 }
@@ -162,12 +196,9 @@ input {
   padding-top: 17px;
 }
 
-.low-info {
-  font-size: 12px;
-  color: gray;
-  font-style: italic;
-  padding-bottom: 38px;
-  text-align: center;
+.captcha a {
+  text-decoration: none;
+  color: #0077c5;
 }
 
 footer {

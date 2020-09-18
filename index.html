@@ -11,12 +11,14 @@
   <body class="main-container">
 <!--Header with Sign-in button-->
     <header>
-      <div class="have-acc">
-        <p class="p1">Already have an Intuit account?</p>
-        <a href="#" class="a1">I forgot my User ID or Password</a>
-      </div>
-      <div class="btn">
-        <button class="signup-btn" type="submit"><i class="fas fa-lock"></i> Sign In</button>
+      <div class="have-acc-cont">
+        <div class="have-acc">
+          <p class="p1">Already have an Intuit account?</p>
+          <a href="#" class="a1">I forgot my User ID or Password</a>
+        </div>
+        <div class="btn">
+          <button class="signin-btn" type="submit"><i class="fas fa-lock"></i> Sign In</button>
+        </div>
       </div>
     </header>
 <!--Form-->
@@ -26,7 +28,7 @@
     </div>
     <div class="signup-form">
       <form action="/signup" method="post">
-        <h2>Create an Intuit account</h2>
+        <p class="title">Create an Intuit account</p>
         <p>One account for everything Intuit, including Mint.</p>
         <a href="#" class="learn">Learn more</a>
         <fieldset class="info">
@@ -47,8 +49,10 @@
             <button class="submit-btn" type="submit"><i class="fas fa-lock"></i> Create Account</button>
           </div>
         </fieldset>
-        <p class="low-info">By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our a
-        <a href="#">Privacy Statement.</a></p>
+        <div class=low-info-cont>
+          <p class="low-info">By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our a
+          <a href="#">Privacy Statement.</a></p>
+        </div>
         <div class="class-c">
           <p class="captcha">Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a></p>
         </div>
