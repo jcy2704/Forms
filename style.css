@@ -89,6 +89,10 @@ fieldset {
   text-align: left;
 }
 
+.phone-msg {
+  font-size: 12px;
+}
+
 .info label {
   display: block;
   margin-top: 30px;
