@@ -23,6 +23,10 @@ header {
   width: 100%;
 }
 
+.btn fa fas-lock {
+  scale: 50%;
+}
+
 .have-acc {
   justify-content: flex-end;
 }
